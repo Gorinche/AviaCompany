@@ -1413,7 +1413,7 @@ header.header-bar {
 
 header.header-bar .header-bar-top {
     height: 41px;
-    background: #0c2149;
+    background: #e5604d;
     font-family: 'Roboto';
     text-align: right;
     font-weight: 400;
@@ -1440,7 +1440,7 @@ header.header-bar .header-bar-top .header-bar-top-element i {
 }
 
 header.header-bar .header-bar-top .header-bar-top-element a {
-    color: rgba( 255, 255, 255, 0.65 );
+    color: rgba( 255, 255, 255, 0.9 );
     text-decoration: none;
     -webkit-transition: 0.1s;
     -moz-transition: 0.1s;
@@ -1448,7 +1448,7 @@ header.header-bar .header-bar-top .header-bar-top-element a {
 }
 
 header.header-bar .header-bar-top .header-bar-top-element a:hover {
-    color: #fff;
+    color: #000;
 }
 
 header.header-bar .header-bar-top .header-bar-top-element.languages-switcher:hover .current-language a {
@@ -1496,12 +1496,12 @@ header.header-bar .header-bar-bottom {
 }
 
 header.header-bar .header-bar-bottom .logo {
-    width: 200px;
+    width: 150px;
     height: 150px;
     position: absolute;
-    background: #0c2149;
+    background: transparent;
     z-index: 500;
-    top: -41px;
+    top: -60px;
     text-align: center;
 }
 
